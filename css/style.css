@@ -1,0 +1,30 @@
+.board {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid;
+    width: 450px;
+    height: 380px;
+    background-color: blue;
+}
+
+.board div {
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 3px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Lucida Console", Monaco, Monospace;
+}
+
+button {
+margin-left: 45%;
+margin-top: 5%;
+}
